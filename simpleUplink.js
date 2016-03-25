@@ -15,8 +15,8 @@ function processTest(event, context) {
 
 
     var thing = awsIot.thingShadow({
-        "keyPath": "./765a59255d-private.pem.key",
-        "certPath": "./765a59255d-certificate.pem.crt",
+        "keyPath": "./secrets/765a59255d-private.pem.key",
+        "certPath": "./secrets/765a59255d-certificate.pem.crt",
         "caPath": "./root-CA.crt",
         "clientId": "SmartStudio-Raspi",
         "region": "eu-west-1"
