@@ -1,0 +1,14 @@
+{
+    "name": "node-api",
+    "main": "server.js",
+    "dependencies": {
+      "aws-iot-device-sdk": "1.0.10",
+      "mqtt": "*",
+      "binstring": "*",
+      "node-string-pad": "*",
+      "winston": "*",
+      "uuid": "*",
+      "aws-sdk-promise": "*",
+      "bluebird": "*"
+    }
+}
