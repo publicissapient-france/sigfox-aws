@@ -113,6 +113,6 @@ function processTest(event, context) {
     thing
         .on('error', function (error) {
             console.log('[thing][error]', error);
-            context.fail("Error: ", err.message, " - Stack: ", err.stack);
+            context.fail("Error: ", error.message, " - Stack: ", error.stack);
         });
 }
