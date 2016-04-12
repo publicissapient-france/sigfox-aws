@@ -2,7 +2,7 @@ const simpleUplink = require("./simpleUplink.js").handler;
 const simpleDownlink = require("./simpleDownlink.js").handler;
 const sigfoxBridge = require("./sigfoxBridge.js").handler;
 
-simpleUplink({
+/*simpleUplink({
     "device": "1C69C",
     "temperature": "25.5",
     "humidity": "40",
@@ -22,7 +22,7 @@ simpleDownlink({
     "ack": true
 }, {
     succeed: function(data){ console.log("succeed :" + JSON.stringify(data, null, 2))}
-});
+});*/
 
 sigfoxBridge({
     "device": "1C69C",
